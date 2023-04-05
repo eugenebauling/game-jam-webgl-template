@@ -8,7 +8,7 @@ Example scenes of how to do Near JavaScript API calls and Near RPC calls using t
 	Ø Unity version: 2021.3.21f1
 	Ø Make sure you install 2 Unity Editor modules - WebGL Build Support & Windows Build Support (IL2CPP)
 	Ø Build platform: WebGL
-	Ø Newtonsoft.JSON package used for RPC API example only
+	Ø Newtonsoft.JSON
 	Ø New Input sytem
 	Ø Render Pipeline: URP
 
@@ -27,6 +27,7 @@ Example scenes of how to do Near JavaScript API calls and Near RPC calls using t
 	8) When the WebGL application opens in your browser you will see a screen with the login button.
 	9) Select the relevant Near network testnet/mainnet from the dropdown and click the Login button
 	10) Sign in using your relevant Near wallet.
+	11) Use the interface to test various Near API calls, including calling a contract method and passing an argument. 
 
 
 <p>&nbsp;</p>
@@ -64,6 +65,7 @@ Default scene with the following functions.
 	4) Get account ID
 	5) Get account balance
 	6) Navigate to the RPC scene
+	7) Call a method on a contract passing in a JSON argument (Examples of retrieving a Mintbase NFT and the MFG NFT)
 
 
 
