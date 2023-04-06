@@ -38,6 +38,6 @@ public class Car : MonoBehaviour
     private void OnTriggerEnter(Collider other)
     {
         if (other.CompareTag("Obstacle"))
-            SceneManager.LoadScene(3);
+            SceneManager.LoadScene(0);
     }
 }
